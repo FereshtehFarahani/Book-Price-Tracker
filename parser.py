@@ -25,6 +25,6 @@ def parse_books(html):
         book_dict['availability'] = availability
 
         # Add to the main list
-        all_books.append(bookdict)
+        all_books.append(book_dict)
 
     return all_books
