@@ -2,9 +2,10 @@
 Scraping book titles, prices, and availability from this website (http://books.toscrape.com/) and store the data in CSV format for analysis or monitoring price changes over time.
 
 # Steps: 
-1. Scraping Multiple Pages (Pagination)
+1. Scraping Multiple Pages 
+2. Store Data in a Database 
 
-<!-- 2. Store Data in a Database (e.g., SQLite or PostgreSQL)
+<!--  
 3. Scheduled Scraping + Historical Tracking
 4. Exporting Data in Usable Formats (JSON/Excel/DB)
 5. Error Handling + Logging
