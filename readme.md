@@ -29,3 +29,4 @@ Scraping book information (titles, prices, and availability) from this website (
 - requests
 - beautifulsoup4
 - pandas
+- mysql-connector-python
