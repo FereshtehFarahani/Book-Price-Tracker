@@ -3,7 +3,7 @@ Scraping book information (titles, prices, and availability) from this website (
 
 # Steps: 
 1. Scraping Multiple Pages 
-2. Store Data in a Databas (SQLite)
+2. Store Data in a Databas (MySQL)
 
 
 <!--  
