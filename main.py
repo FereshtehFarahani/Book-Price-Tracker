@@ -1,6 +1,7 @@
 from scraper import fetch_page
 from parser import parse_books
 from utils import save_to_csv
+from utils import save_to_db
 from utils import build_full_url
 from bs4 import BeautifulSoup
 
@@ -28,4 +29,8 @@ while current_URL is not None:
         current_URL = None
 
 # Step 3: Save the collected data
-save_to_csv(all_books, "data/books_data.csv") 
+save_to_csv(all_books, "data/books_data.csv")
+
+# Step 4: Save to database
+save_to_db(all_books)
+
