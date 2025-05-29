@@ -19,7 +19,7 @@ def save_to_db(data):
     host="127.0.0.1",
     port=3306,
     user="root",
-    password="Angel@1370",  # I removed my pass to db
+    password="",  # I removed my pass to db
     database="books_db"
     )
 
